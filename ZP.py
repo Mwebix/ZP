@@ -8,7 +8,7 @@ import io
 import base64
 
 # Header with Markdown for styling
-st.markdown('<h1 style="color:red;">Webixinol ZA <span style="color:blue;">:sunglasses:</span></h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="color:red;">Webixinol ZA <span style="color:blue;"></span></h1>', unsafe_allow_html=True)
 
 def calculate_z_scores(column_values):
     mean = column_values.mean()
