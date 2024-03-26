@@ -1,5 +1,3 @@
-# Z-score Analysis
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -9,7 +7,8 @@ from scipy.integrate import simps  # Import the simps function for numerical int
 import io
 import base64
 
-st.header(':red[Webixinol ZA] :sunglasses:' , divider='blue')
+# Header with Markdown for styling
+st.markdown('<h1 style="color:red;">Webixinol ZA <span style="color:blue;">:sunglasses:</span></h1>', unsafe_allow_html=True)
 
 def calculate_z_scores(column_values):
     mean = column_values.mean()
